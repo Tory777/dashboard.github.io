@@ -1,0 +1,18 @@
+{
+  "name": "test_task_idap",
+  "version": "1.0.0",
+  "description": "Dashboard page\u001b[D\u001b[D\u001b[D\u001b[_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tory <viktoriiageryk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
+}

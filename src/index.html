@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @font-face{
+            font-family: 'Muli';
+            src: url(fonts/Muli-Regular.ttf);}
+    </style>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="nav">
+            <div class="nav__item user">
+                 <img src="images/user_icon.png" align="middle" width="50%" alt="user photo">
+            </div>
+            <div class="nav__item dots__first">
+                <img src="images/dots.png" align="middle" width="15%" alt="Dots">
+            </div>
+            <div class="nav__item logout">
+                <img src="images/board.png" align="middle" width="25%" alt="Board">
+                <p>Board</p>
+            </div>
+            <div class="nav__item dots">
+                <img src="images/dots.png" align="middle" width="15%" alt="Dots">
+            </div>
+            <div class="nav__item board">
+                <img src="images/projects.png" align="middle" width="20%" alt="Projects">
+                <p>Projects</p>
+            </div>
+            <div class="nav__item dots">
+                <img src="images/dots.png" align="middle" width="15%" alt="Dots">
+            </div>
+            <div class="nav__item projects">
+                <img src="images/settings.png" align="middle" width="25%" alt="Settings">
+                <p>Settings</p>
+            </div>
+            <div class="nav__item settings">
+                <img src="images/upgrade.png" align="middle" width="25%" alt="Upgrade">
+                <p>Upgrade</p>
+            </div>
+            <div class="nav__item dots">
+                <img src="images/dots.png" align="middle" width="15%" alt="Dots">
+
+            </div>
+            <div class="nav__item logout">
+                <img src="images/logout.png" align="middle" width="25%" alt="Logout">
+                <p>Logout</p>
+            </div>
+
+
+        </div>
+        <div class="header">
+            <div class="header__dashPart">
+                <img src="images/reload.png" width="20%" align="left" alt="Arrow reload">
+                <button>Dashboard</button>
+            </div>
+
+            <div class="header__userPart">
+                <img src="images/arrow_down.png" width="20%" align="left" alt="arrow down">
+                <button><img src="images/cloud.png" width="10%" alt="Cloud">
+                    <span class="button_text">5 User ONLINE</span>
+                    <img src="images/arrow.png" width="6%" alt="Arrow down">
+                </button>
+            </div>
+        </div>
+        <div class="main">
+                 <input type="radio" name="tabs" checked="checked" id="tab1"/>
+                 <label for="tab1"><img src="images/clock.png" width="2%" class="clock" alt="Clock">Active Projects
+                 <img class='counter' src="images/counter-grey.png" width="1.5%" class ='counter' alt="Counter"></label>
+                 <input type="radio" name="tabs" id="tab2"/>
+                 <label for="tab2">Messenger<img src="images/counter.png" width="1.5%" class = 'counter' alt="Counter"></label>
+
+                <div class="main__tab1content">
+
+                        <table class="table table__main" width="70%">
+                            <tr height="93">
+                                <td class="searchString">Search a Project with Name, Task, User...</td>
+                                <td class="tool">
+                                    <button><span class="searchString__button_text"><strong>New Projects</strong>(descending)</span>
+                                    <img src="images/arrow.png" width="4%" alt="Arrow down"></button>
+                                    <img src="images/plus.png" width="9%" align="right" alt="Plus">
+                                </td>
+                            </tr>
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">23<span class="percent">%</span></div>
+                                    <span class="activityName">Create Contact Formular</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Worlda</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow down">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">87<span class="percent">%</span></div>
+                                    <span class="activityName">Create Subpage PSD</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Panorama</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="arrow down">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">83<span class="percent">%</span></div>
+                                    <span class="activityName">Layout & implementation in HTML & CSS</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Ebay Relaunch</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow down">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+                            <tr height="93" class="nonActive" valign="middle">
+                                <td>
+                                    <div class="statistics statistics__pass">66<span class="percent">%</span></div>
+                                    <span class="activityName">Creating the Context</span>
+                                </td>
+                                <td class="tool" valign="middle">
+
+
+                                    <button class="nameProject nonActiveButton">
+                                        <span class="button_text">
+                                        <img src="images/arrow_reload.png" alt="arrow reload">Today, 13:40 PM
+                                        </span>
+                                    </button>
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+
+                                </td>
+                            </tr>
+                            <tr height="93" class="nonActive">
+                                <td>
+                                    <div class="statistics statistics__pass" id = 'ready'>READY</span></div>
+                                    <span class="activityName__ready">Implementation in the Layout</span>
+                                    <img src="images/done.png" alt="Done-sign">
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject nonActiveButton">
+                                        <span class="button_text">
+                                        <img src="images/arrow_reload.png" alt="Arrow reload">Today, 13:40 PM
+                                        </span>
+                                    </button>
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">23<span class="percent">%</span></div>
+                                    <span class="activityName">Lorem ipsum dolor sit amet, elitr, sed diam nonumy eirmod tempor</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Panorama</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow reload">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">28<span class="percent">%</span></div>
+                                    <span class="activityName">Create Contact Formular</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Worlda</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow reload">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">28<span class="percent">%</span></div>
+                                    <span class="activityName">Create Contact Formular</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Worlda</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow reload">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+
+                            <tr height="93">
+                                <td>
+                                    <div class="statistics">28<span class="percent">%</span></div>
+                                    <span class="activityName">Create Contact Formular</span>
+                                </td>
+                                <td class="tool">
+                                    <button class="nameProject"><span class="button_text">Worlda</span></button>
+                                    <img src="images/down.png" width="9%" align="right" alt="Arrow reload">
+                                    <img src="images/search.png" width="9%" align="right" alt="Loupe">
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table class="table table__users"  width="25%">
+
+                            <tr height="93">
+                                <td><img src="images/user1.png" class="userIcon" align="left" alt="User photo"><span class="userName">Mark P.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user2.png" class="userIcon" align="left" alt="User photo"><span class="userName">Marvin S.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user3.png" class="userIcon" align="left" alt="User photo"><span class="userName">Sebastian K.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user1.png" class="userIcon" align="left" alt="User photo"><span class="userName">Mark P.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user4.png" class="userIcon" align="left" alt="User photo"><span class="userName">Phill</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user1.png" class="userIcon" align="left" alt="User photo"><span class="userName">Mark P.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user5.png" class="userIcon" align="left" alt="User photo"><span class="userName">BAD BOY</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user5.png" class="userIcon" align="left" alt="User photo"><span class="userName">BAD BOY</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user1.png" class="userIcon" align="left" alt="User photo"><span class="userName">Mark P.</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+                            <tr height="93">
+                                <td><img src="images/user5.png" class="userIcon" align="left" alt="User photo"><span class="userName">BAD BOY</span> add an Image into Worlda
+                                    <br><span class="timeActivity">Today,<span class="time">10:30 PM</span></td>
+                            </tr>
+
+                        </table>
+
+             </div>
+
+            <div class="main__tab2content">Содержимое второй вкладки</div>
+
+        </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+</body>
+</html>
